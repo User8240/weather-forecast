@@ -9,6 +9,6 @@ describe('Calc', () => {
 
   test('should correctly return Mercury age and corresponding life expectancy message', () => {
     const calcObject = new Calc(30,100);
-    expect(calcObject.CalcMercury()).toEqual("7.199999999999999; You're under your life expectancy on Mercury!");
+    expect(calcObject.CalcMercury()).toEqual("125; You're over your life expectancy on Mercury!");
   });
 });
