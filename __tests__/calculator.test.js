@@ -6,9 +6,12 @@ describe('Calc', () => {
     expect(calcObject.age).toEqual(30);
     expect(calcObject.lifeExpect).toEqual(100);
   });
-
   test('should correctly return Mercury age and corresponding life expectancy message', () => {
     const calcObject = new Calc(30,100);
     expect(calcObject.CalcMercury()).toEqual("125; You're over your life expectancy on Mercury!");
+  });
+  test('should correctly return Venus age and corresponding life expectancy message', () => {
+    const calcObject = new Calc(30,100);
+    expect(calcObject.CalcVenus()).toEqual("48; You're under your life expectancy on Venus!");
   });
 });
