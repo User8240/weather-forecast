@@ -23,12 +23,18 @@ export default class Calc {
   CalcVenus() {
     let venusAge = 0
     let ageAndExpect = ""
+    let venusLifeExp = 0
+    let yearsLeft = 0
   
     venusAge = this.age / .62 
-    if (this.lifeExpect > venusAge) {
-      ageAndExpect = venusAge.toFixed(0) + "; You're under your life expectancy on Venus!"
-    } else if (this.lifeExpect < venusAge) {
-      ageAndExpect = venusAge.toFixed(0) + "; You're over your life expectancy on Venus!"
+    venusLifeExp = this.lifeExpect / .62
+    yearsLeft = venusLifeExp - venusAge
+  
+    venusAge = this.age / .62 
+    if (venusLifeExp > venusAge) {
+      ageAndExpect = "You are " + venusAge.toFixed(0) + " years old on Venus. You have " + yearsLeft.toFixed(0) + " years left to live!"
+    } else if (venusLifeExp < venusAge) {
+      ageAndExpect = "You are " + venusAge.toFixed(0) + " years old on Venus. You are " + yearsLeft.toFixed(0) + " years over your life expectancy!"
     };
     return ageAndExpect
   };
