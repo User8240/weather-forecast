@@ -1,8 +1,8 @@
-# _Super Galactic Age Calculator_
+# _Weather Forecast_
 
 #### By _**Grace Kostanich & Mo Byrne**_
 
-#### _*_
+#### _This webpage will produce the weather forecast for whatever location you'd like!_
 
 ## Technologies Used
 
@@ -12,7 +12,7 @@
 
 ## Description
 
-_This is a project containing a JavaScript file with business logic written to ..._
+_This is a webpage written in HTML using bootstrap css for styling and JavaScript for functionality_
 
 ## Setup/Installation Requirements
 
@@ -29,4 +29,4 @@ _This is a project containing a JavaScript file with business logic written to .
 
 _none_
 
-Copyright (c) _6/24/2022_ _Grace Kostanich & Mo Byrne_
+Copyright (c) _6/27/2022_ _Grace Kostanich & Mo Byrne_
