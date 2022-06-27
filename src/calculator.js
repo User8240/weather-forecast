@@ -12,6 +12,7 @@ export default class Calc {
     mercuryAge = this.age / .24 
     mercLifeExp = this.lifeExpect / .24
     yearsLeft = mercLifeExp - mercuryAge
+
     if (mercLifeExp > mercuryAge) {
       ageAndExpect = "You are " + mercuryAge.toFixed(0) + " years old on Mercury. You have " + yearsLeft.toFixed(0) + " years left to live!"
     } else if (mercLifeExp < mercuryAge) {
@@ -29,8 +30,7 @@ export default class Calc {
     venusAge = this.age / .62 
     venusLifeExp = this.lifeExpect / .62
     yearsLeft = venusLifeExp - venusAge
-  
-    venusAge = this.age / .62 
+   
     if (venusLifeExp > venusAge) {
       ageAndExpect = "You are " + venusAge.toFixed(0) + " years old on Venus. You have " + yearsLeft.toFixed(0) + " years left to live!"
     } else if (venusLifeExp < venusAge) {
@@ -42,12 +42,17 @@ export default class Calc {
   CalcMars() {
     let marsAge = 0
     let ageAndExpect = ""
+    let marsLifeExp = 0
+    let yearsLeft = 0
   
-    marsAge = this.age / 1.88 
-    if (this.lifeExpect > marsAge) {
-      ageAndExpect = marsAge.toFixed(0) + "; You're under your life expectancy on Mars!"
-    } else if (this.lifeExpect < marsAge) {
-      ageAndExpect = marsAge.toFixed(0) + "; You're over your life expectancy on Mars!"
+    marsAge = this.age / 1.88
+    marsLifeExp = this.lifeExpect / 1.88
+    yearsLeft = marsLifeExp - marsAge
+  
+    if (marsLifeExp > marsAge) {
+      ageAndExpect = "You are " + marsAge.toFixed(0) + " years old on Mars. You have " + yearsLeft.toFixed(0) + " years left to live!"
+    } else if (marsLifeExp < marsAge) {
+      ageAndExpect = "You are " + marsAge.toFixed(0) + " years old on Mars. You are " + yearsLeft.toFixed(0) + " years over your life expectancy!"
     };
     return ageAndExpect
   };
