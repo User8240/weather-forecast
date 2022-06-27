@@ -6,12 +6,16 @@ export default class Calc {
   CalcMercury() {
     let mercuryAge = 0
     let ageAndExpect = ""
+    let mercLifeExp = 0
+    let yearsLeft = 0
   
     mercuryAge = this.age / .24 
-    if (this.lifeExpect > mercuryAge) {
-      ageAndExpect = mercuryAge.toFixed(0) + "; You're under your life expectancy on Mercury!"
-    } else if (this.lifeExpect < mercuryAge) {
-      ageAndExpect = mercuryAge.toFixed(0) + "; You're over your life expectancy on Mercury!"
+    mercLifeExp = this.lifeExpect / .24
+    yearsLeft = mercLifeExp - mercuryAge
+    if (mercLifeExp > mercuryAge) {
+      ageAndExpect = "You are " + mercuryAge.toFixed(0) + " years old on Mercury. You have " + yearsLeft.toFixed(0) + " years left to live!"
+    } else if (mercLifeExp < mercuryAge) {
+      ageAndExpect = "You are " + mercuryAge.toFixed(0) + " years old on Mercury. You are " + yearsLeft.toFixed(0) + " years over your life expectancy!"
     };
     return ageAndExpect
   };
