@@ -29,5 +29,18 @@ export default class Calc {
     return ageAndExpect
   };
 
+  CalcMars() {
+    let marsAge = 0
+    let ageAndExpect = ""
+  
+    marsAge = this.age / 1.88 
+    if (this.lifeExpect > marsAge) {
+      ageAndExpect = marsAge.toFixed(0) + "; You're under your life expectancy on Mars!"
+    } else if (this.lifeExpect < marsAge) {
+      ageAndExpect = marsAge.toFixed(0) + "; You're over your life expectancy on Mars!"
+    };
+    return ageAndExpect
+  };
+
 };
   
