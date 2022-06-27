@@ -2,7 +2,7 @@
 
 #### By _**Grace Kostanich**_
 
-#### _A website that converts a users age into their SPACE age! Whether it's on Mercury, Venus or Mars, we'll let you know your life expectancy._
+#### _Business logic for a website that converts a users age into their SPACE age! Whether it's on Mercury, Venus or Mars, we'll let you know your life expectancy._
 
 ## Technologies Used
 
@@ -12,14 +12,14 @@
 
 ## Description
 
-_This is a webpage written in HTML using Bootstrap CSS for styling & JavaScript for functionality._
+_This is a project containing a JavaScript file with business logic written to calculate a users age and life expectancy on multiple planets in our solar system._
 
 ## Setup/Installation Requirements
 
 * _Fork project to your own GitHub repository_ 
 * _Clone that repository to your desktop_
 * _Run npm install in root directory to receive all dependencies_
-* _Open index.html or a live server to view webpage!_
+* _Open calculator.js to view business logic!_
 
 ## Known Bugs
 
