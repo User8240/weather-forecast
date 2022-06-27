@@ -14,4 +14,8 @@ describe('Calc', () => {
     const calcObject = new Calc(30,100);
     expect(calcObject.CalcVenus()).toEqual("48; You're under your life expectancy on Venus!");
   });
+  test('should correctly return Mars age and corresponding life expectancy message', () => {
+    const calcObject = new Calc(30,100);
+    expect(calcObject.CalcMars()).toEqual("15; You're under your life expectancy on Mars!");
+  });
 });
