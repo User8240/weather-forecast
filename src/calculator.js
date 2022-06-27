@@ -42,5 +42,18 @@ export default class Calc {
     return ageAndExpect
   };
 
+  CalcJupiter() {
+    let jupiterAge = 0
+    let ageAndExpect = ""
+  
+    jupiterAge = this.age / 11.86 
+    if (this.lifeExpect > jupiterAge) {
+      ageAndExpect = jupiterAge.toFixed(0) + "; You're under your life expectancy on Jupiter!"
+    } else if (this.lifeExpect < marsAge) {
+      ageAndExpect = jupiterAge.toFixed(0) + "; You're over your life expectancy on Jupiter!"
+    };
+    return ageAndExpect
+  };
+
 };
   
