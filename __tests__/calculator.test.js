@@ -18,8 +18,8 @@ describe('Calc', () => {
     const calcObject = new Calc(30,100);
     expect(calcObject.CalcMars()).toEqual("You are 16 years old on Mars. You have 37 years left to live!");
   });
-  test('should correctly return Jupiter age and corresponding life expectancy message', () => {
+  test('should correctly return Jupiter age, years left, and corresponding life expectancy message', () => {
     const calcObject = new Calc(30,100);
-    expect(calcObject.CalcJupiter()).toEqual("3; You're under your life expectancy on Jupiter!");
+    expect(calcObject.CalcJupiter()).toEqual("You are 3 years old on Jupiter. You have 6 years left to live!");
   });
 });
