@@ -3,6 +3,7 @@ export default class Calc {
     this.age = age;
     this.lifeExpect = lifeExpect;
   }; 
+  
   CalcMercury() {
     let mercuryAge = 0
     let ageAndExpect = ""
@@ -74,6 +75,5 @@ export default class Calc {
     };
     return ageAndExpect
   };
-
 };
   
