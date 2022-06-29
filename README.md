@@ -20,6 +20,8 @@ _This is a webpage written in HTML using bootstrap css for styling and JavaScrip
 * _Clone that repository to your desktop_
 * _Run npm install in root directory to receive all dependencies_
 * _Open any files you'd like!_
+* _To view website, run `$ npm run build`_
+* _Run `$npm run start` or open a live server on ./dist/index.html 
 
 ## Known Bugs
 
