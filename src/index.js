@@ -31,7 +31,6 @@ $(document).ready(function() {
       $('.showHumidity').text(`The humidity in ${city} is ${body.main.humidity}%`);
       $('.showTemp').text(`The temperature in Kelvins is ${body.main.temp} degrees.`);
       $('.showErrors').text("");
-      //My code is added below
       $('.showFahr').text(`The temperature in Fahrenheit is ` + showFahr + ` degrees.`);
       $('.showClouds').text(`The Clouds in ${city} is ${body.clouds.all}% coverage.`)
       $('.showTempMax').text(`The max temperature in Kelvins is ${body.main.temp_max} degrees.`);
@@ -44,7 +43,6 @@ $(document).ready(function() {
     });
   });
 });
-
   //  function getElements(response) {
       // let temp = (response.main.temp);
       // let showFahr = kevToFahr(temp);
