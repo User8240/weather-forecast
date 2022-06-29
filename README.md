@@ -19,8 +19,9 @@ _This is a webpage written in HTML using bootstrap css for styling and JavaScrip
 * _Fork project to your own GitHub repository_ 
 * _Clone that repository to your desktop_
 * _Run npm install in root directory to receive all dependencies_
-* _Open any files you'd like!_
-* _To view website, run `$ npm run build`_
+* _Open any files you'd like!_  
+* To view website:
+* _Run `$ npm run build`_
 * _Run `$npm run start` or open a live server on ./dist/index.html_
 
 ## Known Bugs
