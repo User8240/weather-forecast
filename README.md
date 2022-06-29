@@ -18,11 +18,14 @@ _This is a webpage written in HTML using bootstrap css for styling and JavaScrip
 
 * _Fork project to your own GitHub repository_ 
 * _Clone that repository to your desktop_
-* _Run npm install in root directory to receive all dependencies_
-* _Open any files you'd like!_  
+* _Run `$npm install` in root directory to receive all dependencies_
+* _Create folder called "dist" in root directory of this project_
+* _Create file called ".env" in root directory of this project_
+* _Generate your own API key from https://home.openweathermap.org/api_keys _
+* _In "./.env" file, type "API_KEY=" then paste in your API key after the "="_ 
 * To view website:
 * _Run `$ npm run build`_
-* _Run `$npm run start` or open a live server on ./dist/index.html_
+* _Run `$npm run start` or open a live server on "./dist/index.html"_
 
 ## Known Bugs
 
