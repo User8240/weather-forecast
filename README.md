@@ -1,6 +1,6 @@
 # _Weather Forecast_
 
-#### By _**Grace Kostanich & Mo Byrne**_
+#### By _**Grace Kostanich, Mo Byrne, & Joe Roaden**_
 
 #### _This webpage will produce the weather forecast for whatever location you'd like!_
 
@@ -29,4 +29,4 @@ _This is a webpage written in HTML using bootstrap css for styling and JavaScrip
 
 _none_
 
-Copyright (c) _6/27/2022_ _Grace Kostanich & Mo Byrne_
+Copyright (c) _6/27/2022_ _Grace Kostanich, Mo Byrne, & Joe Roaden_
